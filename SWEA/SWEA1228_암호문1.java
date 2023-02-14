@@ -20,7 +20,7 @@ L: 원본 암호문의 길이
 */
 import java.util.*;
 import java.io.*;
-public class Solution{
+public class SWEA1228_암호문1{
 	static class Command{
 		int idx;
 		int vN;
@@ -60,7 +60,7 @@ public class Solution{
 	}
 	
 	public static void main(String[] args) throws Exception{
-		Solution T=new Solution();
+		SWEA1228_암호문1 T=new SWEA1228_암호문1();
 		// System.setIn(new FileInputStream("input.txt"));
 		BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb=new StringBuilder();
