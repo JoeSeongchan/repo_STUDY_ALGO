@@ -24,7 +24,7 @@ O(V+E)
 import java.util.*;
 import java.io.*;
 
-public class SWEA1233_사칙연산유효성검사 {
+public class Solution {
 	static class Node {
 		int idx;
 		boolean isInteger;
@@ -70,7 +70,7 @@ public class SWEA1233_사칙연산유효성검사 {
 	}
 
 	public static void main(String[] args) throws Exception {
-		SWEA1233_사칙연산유효성검사 T = new SWEA1233_사칙연산유효성검사();
+		Solution T = new Solution();
 		// System.setIn(new FileInputStream("input.txt"));
 		BufferedReader kb = new BufferedReader(new InputStreamReader(System.in));
 		int tcN = 10;
