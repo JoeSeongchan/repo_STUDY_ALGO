@@ -21,7 +21,7 @@ N: 과자봉지의 개수
 */
 import java.util.*;
 import java.io.*;
-public class SWEA9229_한빈이와SpotMart_과제5{
+public class Solution{
 	int greatest;
 	int vN;
 	int limit;
@@ -59,7 +59,7 @@ public class SWEA9229_한빈이와SpotMart_과제5{
 	}
 	
 	public static void main(String[] args) throws Exception{
-		SWEA9229_한빈이와SpotMart_과제5 T=new SWEA9229_한빈이와SpotMart_과제5();
+		Solution T=new Solution();
 		// System.setIn(new FileInputStream("input.txt"));
 		BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
 		int tcN=Integer.parseInt(kb.readLine());
