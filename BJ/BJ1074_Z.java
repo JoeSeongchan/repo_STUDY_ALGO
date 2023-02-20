@@ -35,7 +35,7 @@ import java.util.StringTokenizer; // 입력 받은 문자열을 공백을 기준
 import java.io.InputStreamReader; // 입력 단위를 Byte에서 Char로 바꾸기 위해 InputStreamReader 사용
 import java.io.BufferedReader; // Buffer를 사용하여 빠르게 입력 받기 위해 BufferedReader 사용 
 
-public class A049_BJ1074_Z { // Z (BJ 1074) 문제 해결 클래스
+public class Solution { // Z (BJ 1074) 문제 해결 클래스
 	int N; // 배열 사이즈가 2^N * 2^N 일 때, N 값
 	int width; // 배열의 폭 (2^N)
 	int tgRowIdx; // 값을 구하고자 하는 요소(target element)의 row 위치(=index)
@@ -87,7 +87,7 @@ public class A049_BJ1074_Z { // Z (BJ 1074) 문제 해결 클래스
 	}
 
 	public static void main(String[] args) throws Exception { // 프로그램 시작점
-		A049_BJ1074_Z T = new A049_BJ1074_Z(); // 문제 해결 클래스의 인스턴스 생성 (이 인스턴스의 solution 메소드 호출로 결과값 받아올 것이다.)
+		Solution T = new Solution(); // 문제 해결 클래스의 인스턴스 생성 (이 인스턴스의 solution 메소드 호출로 결과값 받아올 것이다.)
 		BufferedReader kb = new BufferedReader(new InputStreamReader(System.in)); // BufferedReader로 빠르게 입력 받는다.
 		StringTokenizer stk = new StringTokenizer(kb.readLine()); // 한 줄을 입력 받아 공백을 기준으로 자른다.
 		int N = Integer.parseInt(stk.nextToken()); // 첫번째 토큰은 '배열 사이즈가 2^N * 2^N 일 때, N 값'이다.
