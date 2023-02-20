@@ -20,7 +20,7 @@ O(가로*세로*회전 횟수)
 import java.util.*;
 import java.io.*;
 
-public class BJ16926_배열돌리기1 {
+public class Solution {
 	int[][] map;
 	int rowN;
 	int colN;
@@ -81,7 +81,7 @@ public class BJ16926_배열돌리기1 {
 	}
 
 	public static void main(String[] args) throws Exception {
-		BJ16926_배열돌리기1 T = new BJ16926_배열돌리기1();
+		Solution T = new Solution();
 		// System.setIn(new FileInputStream("input.txt"));
 		BufferedReader kb = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer stk = new StringTokenizer(kb.readLine());
