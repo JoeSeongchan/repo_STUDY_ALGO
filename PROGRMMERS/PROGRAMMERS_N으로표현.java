@@ -25,7 +25,7 @@ k=최솟값의 최댓값
 */
 import java.util.*;
 
-class Solution {
+class PROGRAMMERS_N으로표현 {
     List<Set<Integer>> NkSetS;
     final int maxK = 8;
     int value, targetValue;
