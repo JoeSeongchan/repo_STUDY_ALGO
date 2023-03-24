@@ -15,7 +15,7 @@ O(NlogN)
 */
 import java.util.*;
 import java.io.*;
-public class BJ_파일정리{
+public class BJ_단어정렬{
     String solution(int strN, String[] strS){
         String answer="";
         Arrays.sort(strS,(s1,s2)->{
